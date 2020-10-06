@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2020-10-06T09:10:44.533Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 Edg/85.0.564.68" version="13.7.7" etag="39EbomisVSS2DWUITr54" type="github"><diagram id="jdRcSwUgP4hVE9HtZku5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-06T09:26:04.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 Edg/85.0.564.68" etag="h1coJAvWND148X4ZNgem" version="13.7.7" type="github">
+  <diagram id="jdRcSwUgP4hVE9HtZku5" name="Page-1">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UX_-AMyyP0LKr-C7d2qy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UX_-AMyyP0LKr-C7d2qy-1" target="UX_-AMyyP0LKr-C7d2qy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UX_-AMyyP0LKr-C7d2qy-1" value="&lt;font face=&quot;Lato&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Lato&quot;&gt;Flickan med svavelstickorna&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UX_-AMyyP0LKr-C7d2qy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UX_-AMyyP0LKr-C7d2qy-3" target="UX_-AMyyP0LKr-C7d2qy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UX_-AMyyP0LKr-C7d2qy-3" value="&lt;font face=&quot;Lato&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Lato&quot;&gt;Det är nyårsafton. Det är kallt ute och du springer över gatan. Du tappar de stora tofflorna du fick låna av din mamma; den ena kan du inte hitta och den andra springer en liten pojke fram och tar.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="346" y="130" width="136" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="UX_-AMyyP0LKr-C7d2qy-4" value="Springer du efter pojken eller går du vidare?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="336" y="300" width="156" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
