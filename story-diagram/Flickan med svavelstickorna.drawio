@@ -1,1 +1,141 @@
-<mxfile host="app.diagrams.net" modified="2020-10-06T09:10:44.533Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 Edg/85.0.564.68" version="13.7.7" etag="39EbomisVSS2DWUITr54" type="github"><diagram id="jdRcSwUgP4hVE9HtZku5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-09T09:01:05.364Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 Edg/85.0.564.70" etag="I-fBOl6mXgmMOmtIsa2v" version="13.7.9" type="github">
+  <diagram id="jdRcSwUgP4hVE9HtZku5" name="Page-1">
+    <mxGraphModel dx="2310" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UX_-AMyyP0LKr-C7d2qy-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UX_-AMyyP0LKr-C7d2qy-1" target="UX_-AMyyP0LKr-C7d2qy-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UX_-AMyyP0LKr-C7d2qy-1" value="&lt;font face=&quot;Lato&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Lato&quot;&gt;Flickan med svavelstickorna&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="354" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UX_-AMyyP0LKr-C7d2qy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UX_-AMyyP0LKr-C7d2qy-3" target="UX_-AMyyP0LKr-C7d2qy-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UX_-AMyyP0LKr-C7d2qy-3" value="&lt;font face=&quot;Lato&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Lato&quot;&gt;Det är nyårsafton. Det är kallt ute och du springer över gatan. Du tappar de stora tofflorna du fick låna av din mamma; den ena kan du inte hitta och den andra springer en liten pojke fram och tar.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="346" y="130" width="136" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="UX_-AMyyP0LKr-C7d2qy-4" target="VmeXF4eYFCnjakDmaYNP-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="UX_-AMyyP0LKr-C7d2qy-4" target="VmeXF4eYFCnjakDmaYNP-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UX_-AMyyP0LKr-C7d2qy-4" value="Springer du efter pojken eller går du vidare?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="336" y="300" width="156" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="VmeXF4eYFCnjakDmaYNP-1" target="VmeXF4eYFCnjakDmaYNP-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-1" value="Springer efter pojken" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="VmeXF4eYFCnjakDmaYNP-2" target="VmeXF4eYFCnjakDmaYNP-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-2" value="Går vidare" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="345" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-3" value="Du blir arg på pojken och bestämmer dig för att springa efter honom och ta tillbaka din mammas toffla. Förblindad av din ilska springer du rätt ut i gatan och blir påkörd av en bil. Krocken är dödlig och ditt äventyr tar slut här" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="155" y="440" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="VmeXF4eYFCnjakDmaYNP-5" target="VmeXF4eYFCnjakDmaYNP-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-5" value="Du bestämmer dig för att gå vidare utan dina tofflor. Dina fötter blir blå av kölden och du bestämmer dig för att hitta ett gathörn att vila i. Du vågar inte gå hem, där skulle du bli slagen för att du inte sålt några av de svavelstickor du har med dig i ditt gamla förkläde. När du satt dig ner är du kallare än någonsin och du funderar på att tända en sticka för att värma dig." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="487.5" y="440" width="205" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="VmeXF4eYFCnjakDmaYNP-6" target="VmeXF4eYFCnjakDmaYNP-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="VmeXF4eYFCnjakDmaYNP-6" target="VmeXF4eYFCnjakDmaYNP-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-6" value="Tänder du en sticka?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="512" y="640" width="156" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="VmeXF4eYFCnjakDmaYNP-7" target="VmeXF4eYFCnjakDmaYNP-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="768" />
+              <mxPoint x="414" y="768" />
+              <mxPoint x="414" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-7" value="Tänder en sticka" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="353.5" y="685" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="VmeXF4eYFCnjakDmaYNP-8" target="VmeXF4eYFCnjakDmaYNP-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-8" value="Sparar stickorna." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="707" y="685" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="VmeXF4eYFCnjakDmaYNP-9" target="VmeXF4eYFCnjakDmaYNP-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-9" value="Du blir rädd för det dina föräldrar skulle göra om du kom hem med en sticka för lite. Istället bestämmer du dig för att gå till ett hus du gått förbi tidigare där de hade haft en stor, saftig gås. Du tänker att de kanske kan ge dig en bit när de ser hur illa därann du är.&lt;br&gt;När du kommer fram till huset knackar du på dörren men ingen öppnar. Du tänker att du kan kika in genom fönstret och försöka få kontakt med dem där inne på det viset." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="647.25" y="790" width="239.5" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="VmeXF4eYFCnjakDmaYNP-10" target="VmeXF4eYFCnjakDmaYNP-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="VmeXF4eYFCnjakDmaYNP-10" target="VmeXF4eYFCnjakDmaYNP-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-10" value="Knackar du på fönstret?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="689" y="980" width="156" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="VmeXF4eYFCnjakDmaYNP-11" target="VmeXF4eYFCnjakDmaYNP-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-11" value="Knackar på fönstret." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="1025" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="VmeXF4eYFCnjakDmaYNP-12" target="VmeXF4eYFCnjakDmaYNP-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-12" value="Går vidare." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="886.75" y="1025" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-13" value="Du går försöktigt fram till fönstret och kikar in genom rutan. Där inne sitter en familj vid ett matbord framför en brasa med den finaste maten du någonsin sätt. De har gås, potatis, köttbullar, prinskorv och all annan julmat du kan tänka dig (trots att det är nyårsafton). Du känner att du måste knacka på rutan och för din hand mot glaset. Precis innan du ska knacka till hur du en smäll från en bils avgasrör och hoppar till. Du råkar ramla in i fönstret och krossar rutan i tusen bitar. Familjen där inne blir förskräckt när de ser dig falla ner på golvet och ringer genast polisen. Du blir arresterad för försök till rån och blir satt i fängelse. Där sitter du resten av ditt liv. Ditt äventyr tar slut här." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="427.5" y="1169" width="325" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.442;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="VmeXF4eYFCnjakDmaYNP-14" target="VmeXF4eYFCnjakDmaYNP-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="947" y="1400" />
+              <mxPoint x="400" y="1400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-14" value="Du bestämmer dig för att det kanske inte var en så bra idé att tigga mat på nyårsafton ändå. När du går vidare längs gatan hur du en knall från en bils avgasrör och tror att det är ett pistolskott. Förskräckt springer du tillbaka till hörnet du satt i tidigare och blir sittande där. Efter ett tag kan du inte längre hålla dig, du är så fruktansvärt kall och en liten svavelsticka skulle ju ändå inte föräldrarna märka." style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="842.13" y="1169" width="209.25" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="gKbjw1EVEYab7Ivw2q_o-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VmeXF4eYFCnjakDmaYNP-15" target="gKbjw1EVEYab7Ivw2q_o-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VmeXF4eYFCnjakDmaYNP-15" value="&lt;span&gt;Du tar hastigt fram en sticka ur ditt förkläde och drar den mot väggen. Lågan brinner varmt och klart, som ett litet ljus. Du tycker dig sitta framför en stor järnkamin med blanka mässingsknappar. Elden värmer dig så härligt och gott och du ska precis sträcka fram dina fötter för att värma dem också när svavelstickan slocknar och kaminen försvinner. Där sitter du nu, med en stump av en svavelsticka i ett mörkt gatuhörn.&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="294" y="790" width="239.5" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="gKbjw1EVEYab7Ivw2q_o-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gKbjw1EVEYab7Ivw2q_o-2" target="gKbjw1EVEYab7Ivw2q_o-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gKbjw1EVEYab7Ivw2q_o-2" value="&lt;span&gt;Du tänder en till sticka. Nu ser du in i ett hus där de äter kladdkaka och ris à la Malta till efterrätt. Barnen dricker varm choklad och de vuxna har ångande kaffe i sina muggar. Du går mot väggen och känner lukten av de godaste sötsakerna. När du kliver in i rummet går du mot en ledig stol. Familjen ler vänligt mot dig och du ska precis sätta dig när stickan slocknar och du är tillbaka i gränden.&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="790" width="239.5" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="gKbjw1EVEYab7Ivw2q_o-4" value="&lt;span&gt;Du stryker ännu en sticka. Den här gången är du framför den vackraste julgranen. Den är vackrare och större än den hos din rike köpmannen förra julen. Tusentals ljus brinner i de gröna grenerna och du blir helt förtrollad av dess skönhet. Du sträcker båda händerna mot luften och precis då slocknar stickan. Julljusen stiger mot himlen och när du följer dem med blicken ser du hur stjärnklar natten är. En av stjärnorna faller och du tänker &quot;Nu dör någon!&quot;. DIn gamla mormor hade lärt dig att när en stjärna faller går en själv upp till himlen.&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-55" y="990" width="309.5" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="gKbjw1EVEYab7Ivw2q_o-6" value="&lt;span&gt;Du tänder en till sticka. Nu ser du in i ett hus där de äter kladdkaka och ris à la Malta till efterrätt. Barnen dricker varm choklad och de vuxna har ångande kaffe i sina muggar. Du går mot väggen och känner lukten av de godaste sötsakerna. När du kliver in i rummet går du mot en ledig stol. Familjen ler vänligt mot dig och du ska precis sätta dig när stickan slocknar och du är tillbaka i gränden.&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="1180" width="239.5" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="gKbjw1EVEYab7Ivw2q_o-7" value="Du skyndar dig att tända ännu en svavelsticka och i skenet ser du din gamla mormor.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="1370" width="239.5" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
