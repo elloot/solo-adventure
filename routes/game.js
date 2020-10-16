@@ -2,6 +2,10 @@ var express = require('express');
 var router = express.Router();
 const { query } = require('../models/db');
 
+router.get('/', function (req, res, next) {
+  res.render('game-index', { title: 'Flickan med svavelstickorna' });
+});
+
 router.get('/:id', async function (req, res, next) {
   try {
     const story = await query(
