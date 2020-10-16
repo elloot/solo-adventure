@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  main
+    .container
+      h1 HEJ
+      if story
+        p Här är story
+        ul
+          each stor in story
+            li= stor.body
+
+      if links
+        p Här är links
+        ul
+          each link in links
+            if link.story_id == story[0].id
+              li= link.description
