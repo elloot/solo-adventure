@@ -18,7 +18,7 @@ router.get('/:id', async function (req, res, next) {
       req.params.id
     );
 
-    res.render('test', {
+    res.render('game', {
       id: req.params.id,
       story: story,
       links: links
