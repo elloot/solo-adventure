@@ -3,16 +3,15 @@ extends layout
 block content
   main
     .container
-      h1 HEJ
       if story
-        p Här är story
-        ul
-          each stor in story
-            li= stor.body
+        p #{story[0].body}
 
-      if links
+      if links[0]
         p Här är links
         ul
           each link in links
             if link.story_id == story[0].id
-              li= link.description
+              li
+                a(href='./' + link.target_id)= link.description
+      else
+        a(href='./1') Börja om
