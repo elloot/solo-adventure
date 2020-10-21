@@ -10,7 +10,7 @@ block content
         p Här är links
         ul
           each link in links
-            if link.story_id == story[0].id
+            if link
               li
                 a(href='./' + link.target_id)= link.description
       else
