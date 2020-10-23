@@ -12,7 +12,7 @@ block content
         .story-container
           p.story= story ? story[0].body : "Det ska vara en del av sagan här men något har uppenbarligen gått fel 🤔"
         .link-container
-          each link, index in links
+          each link in links
             if link
               a(href='./' + link.target_id).link= link.description
       svg(width="162" height="160" viewbox="0 0 162 160" fill="none" xmlns="http://www.w3.org/2000/svg").sign-stand
