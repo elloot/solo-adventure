@@ -18,7 +18,11 @@ block content
               a(href='./' + link.target_id).link= link.description
         else
           .link-container(style='justify-content: center !important')
-            a(href='./1').link Börja om
+            if links.length == 1
+              a(href='./' + links[0].target_id).link= links[0].description
+            else
+              a(href='./1').link Börja om
+          
       svg(width="162" height="160" viewbox="0 0 162 160" fill="none" xmlns="http://www.w3.org/2000/svg").sign-stand
         path(d="M51 0H111V160H51V0Z" fill="#C4C4C4")
         path(d="M51 0H0L51 19.3407V0Z" fill="#C4C4C4")
