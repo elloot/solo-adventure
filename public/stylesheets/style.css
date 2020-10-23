@@ -53,8 +53,9 @@ main {
     border-radius: 45px; }
     .navbar-container .navbar .navbar__title {
       font-family: Shadows into light;
-      text-align: center;
-      color: white; }
+      text-align: center; }
+      .navbar-container .navbar .navbar__title a {
+        color: white; }
 
 .sign-container {
   position: absolute;
