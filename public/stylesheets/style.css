@@ -49,4 +49,20 @@ main {
   text-align: center;
   color: white; }
 
+.sign {
+  width: 888px;
+  margin: 0 auto;
+  background: #23477A;
+  padding: 48px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 45px; }
+
+.story-container {
+  background: #C5CDCC;
+  padding: 28px;
+  border-radius: 25px; }
+
 /*# sourceMappingURL=style.css.map */
