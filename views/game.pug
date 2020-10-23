@@ -1,8 +1,11 @@
 extends layout
 
 block head
-  -var title = 'Soloäventyr - sida ' + story[0].id
-  title #{title}
+  if story[0]
+    -var title = 'Soloäventyr - sida ' + story[0].id
+    title #{title}
+  else
+    title Soloäventyr - den här sidan finns inte
 
 block content
   .bg-image-container
@@ -15,7 +18,7 @@ block content
     .sign-container
       .sign-board
         .story-container
-          p.story= story ? story[0].body : "Det ska vara en del av sagan här men något har uppenbarligen gått fel 🤔"
+          p.story= story[0] ? story[0].body : "Det ska vara en del av sagan här men något har uppenbarligen gått fel 🤔"
         //- if there are less than two links to be rendered, center links in container instead of spacing between them
         if links.length == 2
           .link-container
