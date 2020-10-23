@@ -1,5 +1,9 @@
 extends layout
 
+block head
+  -var title = 'Soloäventyr - sida ' + story[0].id
+  title #{title}
+
 block content
   .bg-image-container
     .bg-image
