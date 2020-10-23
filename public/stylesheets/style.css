@@ -26,7 +26,8 @@ a {
 
 main {
   height: 100vh;
-  width: 100vw; }
+  width: 100vw;
+  position: relative; }
 
 .navbar-container {
   display: flex;
@@ -48,6 +49,16 @@ main {
   font-family: Shadows into light;
   text-align: center;
   color: white; }
+
+.sign-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .sign {
   width: 888px;
