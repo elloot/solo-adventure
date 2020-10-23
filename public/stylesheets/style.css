@@ -11,4 +11,20 @@ body {
 a {
   text-decoration: none; }
 
+.br-45 {
+  border-radius: 45px; }
+
+.navbar {
+  background: #93342C;
+  width: 90%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.navbar__title {
+  font-family: Shadows into light;
+  text-align: center;
+  color: white; }
+
 /*# sourceMappingURL=style.css.map */
