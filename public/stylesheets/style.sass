@@ -6,6 +6,11 @@
   padding: 0
   margin: 0
 
+@mixin dfcenter
+  display: flex
+  justify-content: center
+  align-items: center
+
 body
   font-family: Nunito
 
@@ -15,13 +20,16 @@ a
 .br-45
   border-radius: 45px
 
+.navbar-container
+  @include dfcenter
+  width: 100%
+  margin-top: 40px
+
 .navbar
   background: #93342C
   width: 90%
   height: 50px
-  display: flex
-  align-items: center
-  justify-content: center
+  @include dfcenter
 
 .navbar__title
   font-family: Shadows into light
