@@ -73,6 +73,7 @@ main {
     padding: 48px 70px 48px 70px;
     flex-direction: column;
     box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,6 +84,7 @@ main {
       height: 70%;
       display: flex;
       align-items: center;
+      animation: fly-in forwards 0.7s cubic-bezier(0.51, 0, 0, 1);
       border-radius: 25px; }
     .sign-container .sign-board .link-container {
       width: 100%;
@@ -99,8 +101,24 @@ main {
         width: 208px;
         background: #C5AD3E;
         border-radius: 25px;
-        color: black; }
+        color: black;
+        animation: fly-in forwards 0.7s cubic-bezier(0.51, 0, 0, 1); }
   .sign-container .sign-stand {
     z-index: -1; }
+
+.flying-out {
+  animation: fly-out 0.7s forwards cubic-bezier(1, 0, 0.51, 1) !important; }
+
+@keyframes fly-out {
+  from {
+    transform: translateX(0); }
+  to {
+    transform: translateX(-500%); } }
+
+@keyframes fly-in {
+  from {
+    transform: translateX(500%); }
+  to {
+    transform: translateX(0); } }
 
 /*# sourceMappingURL=style.css.map */
