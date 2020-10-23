@@ -1,0 +1,42 @@
+extends layout
+
+block content
+  .bg-image-container
+    .bg-image
+  main
+    .navbar-container
+      nav.navbar
+        h1.navbar__title Flickan med svavelstickorna
+    .sign-container
+      .sign-board
+        .story-container
+          p.story= story ? story[0].body : "Det ska vara en del av sagan här men något har uppenbarligen gått fel 🤔"
+        //- if there are less than two links to be rendered, center links in container instead of spacing between them
+        if links.length == 2
+          .link-container
+            each link in links
+              a(href='./' + link.target_id).link= link.description
+        else
+          .link-container(style='justify-content: center !important')
+            if links.length == 1
+              a(href='./' + links[0].target_id).link= links[0].description
+            else
+              a(href='./1').link Börja om
+          
+      svg(width="162" height="160" viewbox="0 0 162 160" fill="none" xmlns="http://www.w3.org/2000/svg").sign-stand
+        path(d="M51 0H111V160H51V0Z" fill="#C4C4C4")
+        path(d="M51 0H0L51 19.3407V0Z" fill="#C4C4C4")
+        path(d="M111 0H162L111 19.3407V0Z" fill="#C4C4C4")
+    //-.container
+      if story
+        p #{story[0].body}
+
+      if links[0]
+        p Här är links
+        ul
+          each link in links
+            if link
+              li
+                a(href='./' + link.target_id)= link.description
+      else
+        a(href='./1') Börja om
