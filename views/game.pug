@@ -14,7 +14,7 @@ block content
         .link-container
           each link, index in links
             if link
-              a(href='./' + link.target_id)= link.description
+              a(href='./' + link.target_id).link= link.description
       svg(width="162" height="273" viewbox="0 0 162 273" fill="none" xmlns="http://www.w3.org/2000/svg")
         rect(x="51" width="60" height="273" fill="#C4C4C4")
         path(d="M51 0H0L51 33V0Z" fill="#C4C4C4")
