@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap')
 
-*
-  box-sizing: border-box
-  padding: 0
-  margin: 0
-
 @mixin dfcenter
   display: flex
   justify-content: center
   align-items: center
+
+@mixin br-45
+  border-radius: 45px
+
+*
+  box-sizing: border-box
+  padding: 0
+  margin: 0
 
 body
   font-family: Nunito
 
 a
   text-decoration: none
-
-.br-45
-  border-radius: 45px
 
 .navbar-container
   @include dfcenter
@@ -30,6 +30,7 @@ a
   width: 90%
   height: 50px
   @include dfcenter
+  @include br-45
 
 .navbar__title
   font-family: Shadows into light

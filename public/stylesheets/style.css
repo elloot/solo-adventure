@@ -11,9 +11,6 @@ body {
 a {
   text-decoration: none; }
 
-.br-45 {
-  border-radius: 45px; }
-
 .navbar-container {
   display: flex;
   justify-content: center;
@@ -27,7 +24,8 @@ a {
   height: 50px;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  border-radius: 45px; }
 
 .navbar__title {
   font-family: Shadows into light;
