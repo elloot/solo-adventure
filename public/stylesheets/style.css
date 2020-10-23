@@ -79,5 +79,13 @@ main {
       background: #C5CDCC;
       padding: 28px;
       border-radius: 25px; }
+    .sign-container .sign-board .link-container .link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      height: 45px;
+      width: 208px;
+      background: #C5AD3E;
+      border-radius: 25px; }
 
 /*# sourceMappingURL=style.css.map */
