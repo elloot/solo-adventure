@@ -11,7 +11,7 @@ block content
       .sign-board
         .story-container
           p.story= story ? story[0].body : "Det ska vara en del av sagan här men något har uppenbarligen gått fel 🤔"
-        //- if there are no links to be rendered, center links in container instead of spacing between them
+        //- if there are less than two links to be rendered, center links in container instead of spacing between them
         if links.length == 2
           .link-container
             each link in links
