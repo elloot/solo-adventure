@@ -98,7 +98,8 @@ main {
         height: 45px;
         width: 208px;
         background: #C5AD3E;
-        border-radius: 25px; }
+        border-radius: 25px;
+        color: black; }
   .sign-container .sign-stand {
     z-index: -1; }
 
