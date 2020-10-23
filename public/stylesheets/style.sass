@@ -76,9 +76,10 @@ main
 
   .sign-board
     width: 888px
+    height: 400px
     margin: 0 auto
     background: #23477A
-    padding: 48px
+    padding: 48px 70px 48px 70px
     flex-direction: column
     @include dfcenter
     @include br-45
@@ -86,9 +87,18 @@ main
     .story-container
       background: #C5CDCC
       padding: 28px
+      height: 70%
+      display: flex
+      align-items: center
       @include br-25
     
     .link-container
+      width: 100%
+      display: flex
+      justify-content: space-between
+      padding-right: 28px
+      padding-left: 28px
+      margin-top: 48px
       .link
         display: inline-flex
         align-items: center
