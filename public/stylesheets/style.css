@@ -43,20 +43,18 @@ main {
   align-items: center;
   width: 100%;
   padding-top: 40px; }
-
-.navbar {
-  background: #93342C;
-  width: 90%;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 45px; }
-
-.navbar__title {
-  font-family: Shadows into light;
-  text-align: center;
-  color: white; }
+  .navbar-container .navbar {
+    background: #93342C;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px; }
+    .navbar-container .navbar .navbar__title {
+      font-family: Shadows into light;
+      text-align: center;
+      color: white; }
 
 .sign-container {
   position: absolute;
@@ -67,21 +65,19 @@ main {
   display: flex;
   justify-content: center;
   align-items: center; }
-
-.sign-board {
-  width: 888px;
-  margin: 0 auto;
-  background: #23477A;
-  padding: 48px;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 45px; }
-
-.story-container {
-  background: #C5CDCC;
-  padding: 28px;
-  border-radius: 25px; }
+  .sign-container .sign-board {
+    width: 888px;
+    margin: 0 auto;
+    background: #23477A;
+    padding: 48px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px; }
+    .sign-container .sign-board .story-container {
+      background: #C5CDCC;
+      padding: 28px;
+      border-radius: 25px; }
 
 /*# sourceMappingURL=style.css.map */
