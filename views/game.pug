@@ -11,11 +11,13 @@ block content
       .sign-board
         .story-container
           p.story= story ? story[0].body : "Det ska vara en del av sagan här men något har uppenbarligen gått fel 🤔"
-        .link-container
-          if links[0]
+        //- if there are no links to be rendered, center links in container instead of spacing between them
+        if links.length == 2
+          .link-container
             each link in links
               a(href='./' + link.target_id).link= link.description
-          else
+        else
+          .link-container(style='justify-content: center !important')
             a(href='./1').link Börja om
       svg(width="162" height="160" viewbox="0 0 162 160" fill="none" xmlns="http://www.w3.org/2000/svg").sign-stand
         path(d="M51 0H111V160H51V0Z" fill="#C4C4C4")
