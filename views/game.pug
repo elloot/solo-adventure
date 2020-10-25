@@ -35,16 +35,3 @@ block content
         path(d="M51 0H111V160H51V0Z" fill="#C4C4C4")
         path(d="M51 0H0L51 19.3407V0Z" fill="#C4C4C4")
         path(d="M111 0H162L111 19.3407V0Z" fill="#C4C4C4")
-    //-.container
-      if story
-        p #{story[0].body}
-
-      if links[0]
-        p Här är links
-        ul
-          each link in links
-            if link
-              li
-                a(href='./' + link.target_id)= link.description
-      else
-        a(href='./1') Börja om
