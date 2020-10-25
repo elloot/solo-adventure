@@ -1,5 +1,9 @@
 extends layout
 
+mixin story-link(href, description)
+  if description
+    a(href=href).link= description
+
 block head
   if story[0]
     -var title = 'Soloäventyr - sida ' + story[0].id
@@ -23,13 +27,13 @@ block content
         if links.length == 2
           .link-container
             each link in links
-              a(href='./' + link.target_id).link= link.description
+              +story-link('./' + link.target_id, link.description)
         else
           .link-container(style='justify-content: center !important')
             if links.length == 1
-              a(href='./' + links[0].target_id).link= links[0].description
+              +story-link('./' + links[0].target_id, links[0].description)
             else
-              a(href='./1').link Börja om
+              +story-link('./1', 'Börja om')
       .sign-stand
         .sign-stand__wing
           img(src="/images/sign-stand-wing.svg", alt="")
