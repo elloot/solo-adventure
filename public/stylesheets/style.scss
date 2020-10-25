@@ -85,7 +85,7 @@ main {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 0;
+  top: 35%;
   flex-direction: column;
   @include dfcenter;
 
@@ -134,7 +134,24 @@ main {
   }
 
   .sign-stand {
+    width: 200px;
     z-index: -1;
+    display: flex;
+    flex-direction: row;
+
+    .sign-stand__base {
+      width: 70px;
+      height: 100px;
+      background: #C4C4C4;
+    }
+
+    .sign-stand__wing {
+      width: 80px;
+    }
+
+    .sign-stand__wing-right {
+      transform: scaleX(-1);
+    }
   }
 }
 

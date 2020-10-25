@@ -61,7 +61,7 @@ main {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 0;
+  top: 35%;
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -105,7 +105,18 @@ main {
         color: black;
         animation: fly-in forwards 0.7s cubic-bezier(0.51, 0, 0, 1); }
   .sign-container .sign-stand {
-    z-index: -1; }
+    width: 200px;
+    z-index: -1;
+    display: flex;
+    flex-direction: row; }
+    .sign-container .sign-stand .sign-stand__base {
+      width: 70px;
+      height: 100px;
+      background: #C4C4C4; }
+    .sign-container .sign-stand .sign-stand__wing {
+      width: 80px; }
+    .sign-container .sign-stand .sign-stand__wing-right {
+      transform: scaleX(-1); }
 
 .flying-out {
   animation: fly-out 0.7s forwards cubic-bezier(1, 0, 0.51, 1) !important; }
