@@ -71,7 +71,7 @@ main {
     @include dfcenter;
     @include br-45;
 
-    .navbar__title {
+    &__title {
       font-family: Shadows into light;
       text-align: center;
       a {
@@ -139,17 +139,17 @@ main {
     display: flex;
     flex-direction: row;
 
-    .sign-stand__base {
+    &__base {
       width: 70px;
       height: 100px;
       background: #C4C4C4;
     }
 
-    .sign-stand__wing {
+    &__wing {
       width: 80px;
     }
 
-    .sign-stand__wing-right {
+    &__wing-right {
       transform: scaleX(-1);
     }
   }

@@ -51,10 +51,10 @@ main {
     justify-content: center;
     align-items: center;
     border-radius: 45px; }
-    .navbar-container .navbar .navbar__title {
+    .navbar-container .navbar__title {
       font-family: Shadows into light;
       text-align: center; }
-      .navbar-container .navbar .navbar__title a {
+      .navbar-container .navbar__title a {
         color: white; }
 
 .sign-container {
@@ -109,13 +109,13 @@ main {
     z-index: -1;
     display: flex;
     flex-direction: row; }
-    .sign-container .sign-stand .sign-stand__base {
+    .sign-container .sign-stand__base {
       width: 70px;
       height: 100px;
       background: #C4C4C4; }
-    .sign-container .sign-stand .sign-stand__wing {
+    .sign-container .sign-stand__wing {
       width: 80px; }
-    .sign-container .sign-stand .sign-stand__wing-right {
+    .sign-container .sign-stand__wing-right {
       transform: scaleX(-1); }
 
 .flying-out {
