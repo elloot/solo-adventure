@@ -1,0 +1,22 @@
+# Soloäventyr – post mortem
+
+## Inledning
+Syftet med det här arbetet var att skapa en hemsida där användaren kan spela ett soloäventyr med temat saga. Jag valde att utgå ifrån sagan *Flickan med svavelstickorna* som jag byggde vidare lite på för att anpassa sagan till formatet soloäventyr. Arbetet bestod av att designa och koda hemsidan så att den dynamiskt kunde hämta äventyret från en databas.
+
+## Bakgrund
+Jag använde mig av **Node.js** och **Express** som webbserver, **MySQL** som databas och **Pug** som markup-språk för att dynamiskt kunna visa data från databasen på sidan. **Express** används för att hantera användarens olika HTTP-requests och baserat på dessa kommunicera med **MySQL** för att hämta relevant data. Datan skickas sedan vidare till en **Pug**-fil som dynamiskt genererar en **HTML**-fil med innehållet från databasen, som i sin tur skickas till klienten för rendering. Jag använde **Pug** istället för **HTML** då **HTML** är statiskt och alltså inte kan visa annorlunda innehåll än det som skrivs i filen. **MySQL** använde jag för att det är en pålitlig relationsdatabas som är enkel att integrera i **Express**.
+
+Mitt planeringsarbete började med att jag läste igenom *Flickan med svavelstickorna* och omvandlade sagan till ett diagram. Detta gjorde det lättare för mig att få ett grepp om hur jag skulle strukturera min databas och gav mig inspiration till designen av min hemsida. Designen gjorde jag som sagt i Figma för att snabbt och enkelt få en bild över hur mina idéer såg ut, så att jag senare enkelt kunde omvandla dem till **Pug** och **SCSS**-kod.
+
+För att testa min sida lät jag min lillebror, min mamma och min pappa samt några kompisar spela igenom spelet. Genom detta upptäckte jag t.ex att en bit av sagan upprepade sig på ett felaktigt ställe, vilket jag löste genom att ta bort den onödiga raden i min databas. Jag märkte även att tavlan som sagan presenteras på var för lågt ner på skärmen då äventyret spelades på större skärmar, vilket gjorde att jag ändrade hur tavlan positionerades så att den dynamiskt placeras ut beroende på hur hög skärm användaren har.
+
+## Positiva erfarenheter
+Något som gick bra i mitt projekt var att lösa hur jag skulle få datan från databasen till **Pug**-filen och sedan visa det på ett smidigt sätt. Jag förstod detta snabbt då jag tidigare jobbat med **JavaScript**-objekt/arrayer och är bekväm med hur man hanterar dem. Då **Pug** är väldigt likt **JS** i hur de hanterar villlkor och selektion gick det snabbt för mig att förstå hur jag på bästa sätt skulle visa innehållet för användaren. Då jag jobbat mycket med egna projekt är jag även van vid att läsa dokumentation och förstå hur jag bör lösa mina problem baserat på den, så när jag stötte på problem gick det snabbt för mig att själv hitta lösningarna.
+
+## Negativa erfarenheter
+Något som gick mindre bra i projektet var att förstå hur olika **SQL**-queries fungerar. Trots att den inte användes i just det här projektet gick vi igenom hur t.ex `JOIN` kan användas, men just den queryn hade jag svårt att förstå. Jag tror att det var svårt för mig då jag aldrig tidigare jobbat med någon slags databas, inte minst **MySQL**, och därför inte förstod hur man kunde använda relationer och kolumn-namn för att välja vilken data man ville hämta. Jag försökte läsa mig till lösningen på Internet men kunde inte få något tillfredsställande och enkelt svar. Om det sker igen ska jag utnyttja faktumet att jag går i skolan och fråga min lärare om hjälp 😉.
+
+## Sammanfattning
+Under det här projektet lärde jag mig hur man kan använda webbservrar och databaser för att dynamiskt visa användaren innehåll beroende på vad som sker på hemsidan. Jag fick lära mig hur **Pug** fungerar och hur **Express** kommunicerar med både det och **MySQL**. En slutsats jag kan dra från projektet är att det är bra att kunna läsa sig till information på Internet, men om man fastnar för länge på en fråga är det bra att fråga andra om hjälp.
+
+Något som kan utvecklas med projektet är dels webbplatsens startsida, den har just nu ingenting med resten av webbplatsen att göra och det finns inget sätt att ta sig därifrån till spelet. Jag skulle även kunna stila om både den och `/game/`-sidan så att de passar in bättre med spelets design. **Pug**-koden har några, enligt mig, klumpiga och förmodligen förenklingsbara `if`-satser som kan förbättras.
